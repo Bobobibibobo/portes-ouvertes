@@ -1,0 +1,186 @@
+
+/* Général */
+body
+{
+	font-family : sans-serif;
+	margin-top : 40px;
+	margin-bottom : 40px;
+	margin-left : 80px;
+	margin-right: 80px;
+	min-width: 1000px ;
+}
+
+/* Header */
+header 
+{
+	display : flex;
+	
+	text-align : center;
+	margin-bottom : 40px;
+	padding: 20px ;
+
+	background-color: rgb(79,77,80) ;
+	color: white;
+
+}
+
+
+#image 
+{
+	width: 300px;
+    height: 200px;
+    text-align: justify;
+    border: 1px solid black;
+    margin : 10px;
+}
+#nonimage
+{
+	flex-direction : column;
+	display : flex;
+	text-align : center;
+	justify-content : center;
+	flex : 1;
+
+}
+
+#haut 
+{
+	display : flex;
+	flex-direction : column;
+}
+
+#bas 
+{
+	display : flex;
+	justify-content: flex-end;
+
+}
+
+#element
+{ 
+	margin-left : 30px;
+	margin-right :30px;
+	padding : 5px;
+
+	text-decoration: underline;
+	color: white;
+}
+
+#titre_ban
+{
+	font-size: 50px ;
+	color: white;
+}
+
+#date
+{
+	font-size: 30px ;
+	color: rgb(228,38,24) ;
+}
+
+
+/* Footer */
+footer
+{
+	display : flex;
+	margin-top: 40px;
+	background-color: rgb(79,77,80);
+	color: white;
+	justify-content: flex-end;
+
+}
+
+footer #element
+{
+	font-size: 15px ;
+	text-decoration: none
+}
+
+/* Section (contenu de la page) */
+section
+{
+	border : 2px black solid;
+	padding : 10px;
+		
+}
+
+h1
+{
+	text-align : center;
+	font-size: 30px ;
+	color: rgb(79,77,80);
+}
+
+h2
+{
+	font-size: 25px;
+	color:rgb(228,38,24);
+}
+
+strong
+{
+	color: #8398a8;
+}
+
+a
+{
+	text-decoration: none ;
+	color: black;
+}
+
+a:visited
+{
+	color: black;
+}
+
+
+/* Navigation */
+nav
+{
+	background-color: rgb(242,242,242) ;
+	word-wrap: break-word;
+	padding-right: 15px ;
+	margin-right: 40px ;
+	height: 300px ;
+	color: #8398a8;
+}
+
+#titre_nav
+{
+	font-size: 20px ;
+}
+
+#departement
+{
+	font-size: 18px;
+	color: #8398a8;
+}
+
+nav a
+{
+	color:#8398a8;
+}
+
+nav a:visited
+{
+	color:#8398a8;
+}
+
+
+
+/* mise en page navigation et sections */
+#nav_section
+{
+	display: flex;
+	flex-direction: row ;
+
+}
+#contenu_section
+{
+	flex: 4 ;
+}
+
+#navigation
+{
+	flex: 1 ;
+}
